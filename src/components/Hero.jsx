@@ -51,10 +51,10 @@ function Hero() {
             </a>
 
             <a
-              href="/cv/Lakshika-Gobinath-CV.pdf"
+              href={`${import.meta.env.BASE_URL}cv/Lakshika-Gobinath-CV.pdf`}
               className="btn btn-secondary"
-              target="_blank"
-              rel="noopener noreferrer"
+              download="Lakshika-Gobinath-CV.pdf"
+              
             >
               Download CV
               <FiDownload />
