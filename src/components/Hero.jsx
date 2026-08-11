@@ -63,7 +63,7 @@ function Hero() {
           </div>
           <div className="hero-stats">
             <div className="hero-stat">
-                <strong>5+</strong>
+                <strong>4+</strong>
                 <span>Projects</span>
             </div>
 

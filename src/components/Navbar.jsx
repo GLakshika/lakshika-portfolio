@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
+import { FiSun, FiMoon } from "react-icons/fi";
 
-function Navbar() {
+function Navbar({darkMode, toggleTheme}) {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const closeMenu = () => {
@@ -29,6 +30,13 @@ function Navbar() {
         aria-label="Toggle navigation menu"
       >
         {menuOpen ? <FiX /> : <FiMenu />}
+      </button>
+      <button
+        className="theme-toggle"
+        onClick={toggleTheme}
+        aria-label="Toggle dark and light theme"
+        >
+        {darkMode ? <FiSun /> : <FiMoon />}
       </button>
     </nav>
   );
