@@ -91,24 +91,6 @@ export const projects = [
     featured: false,
   },
 
-  {
-    id: 5,
-    title: "Smart Expense Tracker",
-    description:
-      "A full-stack expense management application that allows users to securely manage expenses, search transactions, organize categories and view spending summaries.",
-    technologies: [
-      "React",
-      "Node.js",
-      "PostgreSQL",
-      "JWT",
-      "REST API",
-    ],
-    category: "Full Stack",
-    image: expenseTrackerImage,
-    github: "https://github.com/GLakshika/smart-expense-tracker",
-    demo: "#",
-    featured: true,
-  },
 ];
 
 export const experience = [
