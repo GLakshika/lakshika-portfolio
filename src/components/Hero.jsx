@@ -51,7 +51,7 @@ function Hero() {
             </a>
 
             <a
-              href={`${import.meta.env.BASE_URL}cv/Lakshika-Gobinath-CV.pdf`}
+              href={"/cv/Lakshika-Gobinath-CV.pdf"}
               className="btn btn-secondary"
               download="Lakshika-Gobinath-CV.pdf"
               
